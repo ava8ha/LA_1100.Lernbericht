@@ -17,19 +17,46 @@ Somit ist die Schleife vollendet und der User hängt solange fest bis er die Bed
 
 Wie das ganze in Code aussieht:
 
-<img width="239" alt="image" src="https://user-images.githubusercontent.com/111045914/191703748-8765b6a5-0d3e-455e-bdf2-90bbc51c2fc0.png">
+```C#
+using System;
+namespace LA_1100
+{
+    class Zahlenspiel
+    {
+        static void Main(string[] args)
+        {
+            string eingabe;
+            int gerateneZahl = 0;
+            bool benutzerHatsGecheckt = false;
+            int geheimeZahl = new Random().Next(1, 100);
+                        do
+                        {
+                            try
+                            {
+                                Console.Write("Zahl eingeben (1-100): ");
+                                eingabe = Console.ReadLine();
+                                gerateneZahl = Convert.ToInt32(eingabe);
+                                benutzerHatsGecheckt = true;
+                            }
+                            catch
+                            {
+                                Console.WriteLine("Bitte nur Zahlen!");
+                            }
+                        } while (!benutzerHatsGecheckt);
+```
+Ausgabe:
 
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+<img width="662" alt="image" src="https://user-images.githubusercontent.com/111045914/191711778-ab4da45f-0e42-4e65-bba7-b1390eae52b2.png">
 
 ## Verifikation
-
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Text: beschreibt den Vorgang um diese Schleife zu Programmieren und erklärt die Funktion verschiedener Elemente.
+Code: Wie es dann Schlussendlich auf VisualStudio aussieht und das im Text umgesetzt in Code (ohne restlichen Code für's Spiel).
+Bild: Die Ausgabe und das man tatsächlich nicht weiter spielen kann und es einen jedes Mal korrigiert und erneut eingeben lässt, wenn eine Fehleingabe gemacht wird. Zeigt, dass Fehleingaben aller Art (Zahlen über 100, Minuszahlen, 0, Wörter,Buchstaben) korrigiert werden mit diesem Code.
 
 # Reflexion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+Ich hatte immer Lust an meinem Code zu Arbeiten und das trial and erorr bzw. ständige Problemlösen bis es funktioniert, hat mir auch spass gemacht. Ich musste mich nicht zwingen am Code zu arbeiten- Was nicht sehr seblstverständlich ist für mich.
 
-👎 und etwas, was nicht gut lief.
+Ich hatte sehr viele technische Probleme mit VisualStudio und dem abspeichern meiner Arbeit, was sehr frustrierend war und das lösen dieser Probleme hat mich insgesamt viel zeit gekostet. Es war ein ständiges rausfinden ob mein Weg zur Lösung des Problems funktioniert oder nicht. Ich hatte am Anfang, also in den ersten fünf lektionen, keine Ahnung wie ich mit dem Code anfangen soll. Zur lösung hatte ich dann halt einfach anderes zum Projekt erledigt und mich mit C# angewöhnt durch kleine Programme und Videos dazu.
 
 **VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
