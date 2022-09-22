@@ -57,6 +57,7 @@ Bild: Die Ausgabe und das man tatsächlich nicht weiter spielen kann und es eine
 
 Ich hatte immer Lust an meinem Code zu Arbeiten und das trial and erorr bzw. ständige Problemlösen bis es funktioniert, hat mir auch spass gemacht. Ich musste mich nicht zwingen am Code zu arbeiten- Was nicht sehr seblstverständlich ist für mich.
 
-Ich hatte sehr viele technische Probleme mit VisualStudio und dem abspeichern meiner Arbeit, was sehr frustrierend war und das lösen dieser Probleme hat mich insgesamt viel zeit gekostet. Es war ein ständiges rausfinden ob mein Weg zur Lösung des Problems funktioniert oder nicht. Ich hatte am Anfang, also in den ersten fünf lektionen, keine Ahnung wie ich mit dem Code anfangen soll. Zur lösung hatte ich dann halt einfach anderes zum Projekt erledigt und mich mit C# angewöhnt durch kleine Programme und Videos dazu.
+Ich hatte sehr viele technische Probleme mit VisualStudio und dem abspeichern meiner Arbeit, was sehr frustrierend war und das lösen dieser Probleme hat mich insgesamt viel zeit gekostet. Es war ein ständiges rausfinden ob mein Weg zur Lösung des Problems funktioniert oder nicht. Dabei bestand auch immer die gefahr, dass der Code welchen ich angefertigt habe und funktioniert, verloren gehen würde, weil er nicht aufging.
+Ich hatte am Anfang, also in den ersten fünf lektionen, keine Ahnung wie ich mit dem Code anfangen soll. Zur lösung hatte ich dann halt einfach anderes zum Projekt erledigt und mich mit C# angewöhnt durch kleine Programme und Videos dazu.
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+**VBV**: Den Code, der funktioniert, in Notizen abspeichern, sodass ich im schlimmsten Fall den Code immer noch in ein neues Projekt rein kopieren kann.
