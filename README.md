@@ -42,7 +42,7 @@ namespace LA_1100
                             {
                                 Console.WriteLine("Bitte nur Zahlen!");
                             }
-                        } while (! benutzerHatsGecheckt);
+                        } while (! benutzerHatsGecheckt)
 ```
 Ausgabe:
 
